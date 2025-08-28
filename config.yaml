@@ -1,0 +1,80 @@
+seed: 20250827
+volume:
+  users: 5000
+  sessions: 250000
+seasonality:
+  base_rate_per_min: 0.12
+  daily_amplitude: 0.6
+  weekday_factor: 1.1
+  weekend_factor: 0.8
+intents:
+  order_status:
+    p: 0.22
+    beta:
+    - 8
+    - 2
+  billing_issue:
+    p: 0.18
+    beta:
+    - 7
+    - 2
+  technical_support:
+    p: 0.17
+    beta:
+    - 5
+    - 4
+  plan_change:
+    p: 0.12
+    beta:
+    - 6
+    - 3
+  product_info:
+    p: 0.12
+    beta:
+    - 7
+    - 3
+  refund_request:
+    p: 0.09
+    beta:
+    - 6
+    - 3
+  smalltalk:
+    p: 0.07
+    beta:
+    - 9
+    - 2
+  escalation:
+    p: 0.03
+    beta:
+    - 4
+    - 5
+errors:
+  typo_rate: 0.03
+  codeswitch_rate: 0.05
+  missing_rate: 0.005
+latency_lognorm:
+  mu: 6.6
+  sigma: 0.35
+session_turns:
+  geom_p: 0.18
+channels:
+  web: 0.55
+  app: 0.35
+  messenger: 0.1
+locales:
+  en_IN: 0.6
+  en_US: 0.25
+  en_GB: 0.1
+  other: 0.05
+countries:
+  IN: 0.65
+  US: 0.2
+  GB: 0.1
+  OT: 0.05
+devices:
+  Android: 0.55
+  iOS: 0.3
+  Desktop: 0.15
+time_window:
+  start: '2025-07-01T00:00:00'
+  end: '2025-08-01T00:00:00'

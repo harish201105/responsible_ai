@@ -1,0 +1,5 @@
+intent_key,intent_name,category
+1,order_status,order
+2,billing_issue,billing
+3,technical_support,technical
+4,plan_change,plan

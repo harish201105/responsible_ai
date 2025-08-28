@@ -1,0 +1,9 @@
+intent_key,intent_name,category
+1,order_status,order
+2,billing_issue,billing
+3,technical_support,technical
+4,plan_change,plan
+5,product_info,product
+6,refund_request,refund
+7,smalltalk,smalltalk
+8,escalation,escalation

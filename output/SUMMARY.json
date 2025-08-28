@@ -1,0 +1,7 @@
+{
+  "sessions": 500,
+  "avg_turns": 7.294,
+  "avg_latency_ms": 793.32,
+  "fallback_rate_mean": 0.112714,
+  "satisfaction_mean": 3.87
+}
